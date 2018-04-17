@@ -1,3 +1,9 @@
 ﻿.Black {
 background-color:black;
 }
+.Center {
+    padding-left:150px;
+    padding-right:150px;
+    padding-bottom:0px;
+    padding-top:0px;
+}
