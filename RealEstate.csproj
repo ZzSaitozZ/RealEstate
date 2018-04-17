@@ -150,6 +150,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="favicon.ico" />
+    <Content Include="Resources\CSS\AHS\AHS_styles.css" />
     <Content Include="Resources\CSS\bootstrap.css" />
     <Content Include="Resources\CSS\bootstrap.min.css" />
     <Content Include="Resources\CSS\Home\Banner.css" />
@@ -160,6 +161,15 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <None Include="Resources\Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Resources\Images\AHSD\district-1.png" />
+    <Content Include="Resources\Images\AHSD\district-2.png" />
+    <Content Include="Resources\Images\AHSD\district-3.png" />
+    <Content Include="Resources\Images\AHSD\district-4.png" />
+    <Content Include="Resources\Images\AHSD\district-5.png" />
+    <Content Include="Resources\Images\AHSD\district-binhthanh.png" />
+    <Content Include="Resources\Images\AHSD\district-govap.png" />
+    <Content Include="Resources\Images\AHSD\district-phunhuan.png" />
+    <Content Include="Resources\Images\AHSD\district-tanbinh.png" />
     <Content Include="Resources\Scripts\bootstrap.js" />
     <Content Include="Resources\Scripts\bootstrap.min.js" />
     <Content Include="Resources\Scripts\Home\Banner.js" />
@@ -187,6 +197,7 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\Areas_Home_Sale.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
