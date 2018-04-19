@@ -144,6 +144,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Areas\Details\DetailsAreaRegistration.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -171,6 +172,7 @@
     <Content Include="Resources\CSS\bootstrap-reboot.css.map" />
     <Content Include="Resources\CSS\bootstrap-grid.min.css.map" />
     <Content Include="Resources\CSS\bootstrap-grid.css.map" />
+    <Content Include="Areas\Details\Views\web.config" />
     <None Include="Resources\Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Resources\Images\Icons\glyphicons-159-show-lines.png" />
     <Content Include="Resources\Scripts\bootstrap.js" />
@@ -243,6 +245,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Areas\Details\Controllers\" />
+    <Folder Include="Areas\Details\Models\" />
+    <Folder Include="Areas\Details\Views\Shared\" />
     <Folder Include="Models\DAO\" />
     <Folder Include="Models\EF\" />
   </ItemGroup>
