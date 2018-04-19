@@ -1,9 +1,45 @@
-﻿.Black {
-background-color:black;
+﻿.Color {
+background-color:royalblue;
 }
 .Center {
-    padding-left:150px;
-    padding-right:150px;
+    padding-left:110px;
+    padding-right:110px;
     padding-bottom:0px;
     padding-top:0px;
+}
+.Left{
+    display:contents;
+    float:left;
+}
+.ItemCenter {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.Menu {
+    color: white;
+}
+.Menu:hover {
+    color: powderblue;
+    text-decoration:none;
+    border-bottom:solid;
+    border-bottom-color:whitesmoke;
+}
+
+.Menu-dropdown {
+    border:none;
+    background-color: royalblue;
+    font-size: inherit;
+    padding-bottom: 0px;
+    padding-top: 6px;
+}
+
+.Menu-dropdownitem {
+    color: white;
+}
+
+.Menu-dropdownitem:hover {
+    cursor: pointer;
+    background-color: cornflowerblue;
+    border-radius: 0.25rem;
 }

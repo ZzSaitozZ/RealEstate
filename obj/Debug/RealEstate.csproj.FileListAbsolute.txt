@@ -88,3 +88,4 @@ E:\PROJECT_SAGO\Project_GIT\RealEstate\RealEstate\obj\Debug\RealEstate.csproj.Co
 E:\PROJECT_SAGO\Project_GIT\RealEstate\RealEstate\obj\Debug\RealEstate.csproj.CopyComplete
 E:\PROJECT_SAGO\Project_GIT\RealEstate\RealEstate\obj\Debug\RealEstate.dll
 E:\PROJECT_SAGO\Project_GIT\RealEstate\RealEstate\obj\Debug\RealEstate.pdb
+E:\PROJECT_SAGO\Project_GIT\RealEstate\RealEstate\obj\Debug\RealEstate.csprojResolveAssemblyReference.cache
