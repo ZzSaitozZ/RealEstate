@@ -1,6 +1,7 @@
 ﻿.Color {
 background-color:royalblue;
 }
+
 .Center {
     padding-left:110px;
     padding-right:110px;
@@ -19,6 +20,11 @@ background-color:royalblue;
 .Menu {
     color: white;
 }
+
+.MenuBT {
+    color: white;
+}
+
 .Menu:hover {
     color: powderblue;
     text-decoration:none;
