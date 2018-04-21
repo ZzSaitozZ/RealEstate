@@ -49,3 +49,14 @@ background-color:royalblue;
     background-color: cornflowerblue;
     border-radius: 0.25rem;
 }
+
+.icons:hover {
+    color:gray;
+}
+
+
+.Copyright{
+    background-color: royalblue;
+    border-top:solid;
+    border-top-color:white;
+}

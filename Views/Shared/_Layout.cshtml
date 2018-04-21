@@ -6,9 +6,10 @@
     <title>@ViewBag.Title - My ASP.NET Application</title>
     @Styles.Render("~/Content/css")
     @Styles.Render("~/Content/Home")
+    @Styles.Render("~/Content/Icon")
     @Scripts.Render("~/bundles/modernizr")
 </head>
-<body style="padding-top:0px">
+<body style="padding-top:0px; padding-bottom:0px">
     <nav class="navbar navbar-expand-lg navbar-light Color fixed-top">
         <div class="navbar-brand">
             <a class="Menu" href="#">REAL ESTATE</a>
@@ -40,7 +41,21 @@
      </div>
     <div>
         <footer>
-           <div class="container-fluid Color">
+            <div class="text-center">
+                <ul class="list-unstyled list-inline">
+                    <li class="list-inline-item">
+                        <a class="btn-block btn-sm mx-1">
+                            <i class="fab fa-facebook-square fa-3x icons"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="btn-block btn-sm mx-1">
+                            <i class="fab fa-google-plus fa-3x icons"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="container-fluid Color">
                <div class="row MenuBT">
                    <div class="col-sm-3">
                        <h5 class="text-uppercase font-weight-bold">Footer Content</h5>
@@ -89,8 +104,8 @@
                        </ul>
                    </div>
                </div>
-           </div>
-            <div class="container-fluid" style="background-color:cornflowerblue">
+            </div>
+            <div class="container-fluid Copyright" >
                 <div class="text-center MenuBT">
                     © 2018 Copyright: 
                     <a class="Menu" href="#">RealEstate.com</a>

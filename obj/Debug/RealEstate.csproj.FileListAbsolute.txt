@@ -22,7 +22,6 @@ E:\PROJECT_SAGO\Project_GIT\RealEstate\RealEstate\bin\roslyn\Microsoft.DiaSymRea
 E:\PROJECT_SAGO\Project_GIT\RealEstate\RealEstate\bin\roslyn\Microsoft.VisualBasic.Core.targets
 E:\PROJECT_SAGO\Project_GIT\RealEstate\RealEstate\bin\roslyn\Microsoft.Win32.Primitives.dll
 E:\PROJECT_SAGO\Project_GIT\RealEstate\RealEstate\bin\roslyn\System.AppContext.dll
-E:\PROJECT_SAGO\Project_GIT\RealEstate\RealEstate\bin\roslyn\System.Collections.Immutable.dll
 E:\PROJECT_SAGO\Project_GIT\RealEstate\RealEstate\bin\roslyn\System.Console.dll
 E:\PROJECT_SAGO\Project_GIT\RealEstate\RealEstate\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
 E:\PROJECT_SAGO\Project_GIT\RealEstate\RealEstate\bin\roslyn\System.Diagnostics.Process.dll
@@ -88,4 +87,4 @@ E:\PROJECT_SAGO\Project_GIT\RealEstate\RealEstate\obj\Debug\RealEstate.csproj.Co
 E:\PROJECT_SAGO\Project_GIT\RealEstate\RealEstate\obj\Debug\RealEstate.csproj.CopyComplete
 E:\PROJECT_SAGO\Project_GIT\RealEstate\RealEstate\obj\Debug\RealEstate.dll
 E:\PROJECT_SAGO\Project_GIT\RealEstate\RealEstate\obj\Debug\RealEstate.pdb
-E:\PROJECT_SAGO\Project_GIT\RealEstate\RealEstate\obj\Debug\RealEstate.csprojResolveAssemblyReference.cache
+E:\PROJECT_SAGO\Project_GIT\RealEstate\RealEstate\bin\roslyn\System.Collections.Immutable.dll

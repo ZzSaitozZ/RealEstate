@@ -28,10 +28,10 @@ namespace RealEstate
                       "~/Resources/CSS/site.css"));
 
             bundles.Add(new StyleBundle("~/Content/Home").Include(
-                      "~/Resources/CSS/Home/Banner.css",
-                      "~/Resources/CSS/Home/navbar.css"));
+                      "~/Resources/CSS/Home/Banner.css"));
 
-            
+            bundles.Add(new StyleBundle("~/Content/Icon").Include(
+                      "~/Resources/Icons/css/fontawesome-all.css"));
         }
     }
 }
