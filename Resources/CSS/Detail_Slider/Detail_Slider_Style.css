@@ -31,7 +31,7 @@
     /*display: inline-block;*/
     float: left;
     width: auto;
-    padding-left: 30px;
+    padding-left: 0px;
     margin-right: 14px;
     position: relative;
     /*font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -69,7 +69,7 @@
     color: #ffffff;
 }
 
-.bl-listing .bl-info-listing .elements::before {
+/*.bl-listing .bl-info-listing .elements::before {
     content: '';
     display: inline-block;
     background-repeat: no-repeat;
@@ -91,7 +91,7 @@
 }
 .bl-listing .bl-info-listing .elements.incense::before {
     background-position-x: -65px;
-}
+}*/
 .bl-listing .compare {
     color: #fff;
     position: absolute;
