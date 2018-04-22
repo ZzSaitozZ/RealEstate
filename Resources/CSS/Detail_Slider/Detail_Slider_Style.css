@@ -1,0 +1,109 @@
+﻿
+.bl-listing .blocks img {
+    height: 190px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.bl-listing .bl-value {
+    position: absolute;
+    bottom: 70px;
+    z-index: 2;
+    padding: 0 10px;
+    width: 100%;
+    text-shadow: 0 2px 7px rgba(0,0,0,.75);
+}
+
+.bl-listing .bl-price {
+    font-size: 25px;
+    line-height: 1.42857143;
+    color: #ffffff;
+}
+
+.bl-listing .bl-info-listing {
+    font-size: 17px;
+}
+
+.bl-listing .bl-info-listing .elements {
+    padding-top: 4px;
+    min-height: 30px;
+    text-align: left;
+    /*display: inline-block;*/
+    float: left;
+    width: auto;
+    padding-left: 30px;
+    margin-right: 14px;
+    position: relative;
+    /*font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 17px;
+    line-height: 1.42857143;
+     color: #ffffff;*/
+}
+
+.bl-listing .block-info {
+    background-color: #eee;
+    color: #696969;
+    font-size: 17px;
+    padding: 8px 10px 15px;
+    height: 65px;
+}
+
+.bl-listing .block-info h3 {
+    margin: 0 0;
+    font-size: 17px;
+    line-height: 22px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.block-listing .blocks {
+    color: #fff;
+}
+
+.carousel-inner span {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 17px;
+    line-height: 1.42857143;
+    color: #ffffff;
+}
+
+.bl-listing .bl-info-listing .elements::before {
+    content: '';
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-image: url('../../Images/Icons/icon-mobile.svg');
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 0;
+    background-position-y: -3px;
+}
+.bl-listing .bl-info-listing .elements.acreage::before {
+    background-position-x: -155px;
+}
+.bl-listing .bl-info-listing .elements.bedroom::before {
+    background-position-x: -125px;
+}
+.bl-listing .bl-info-listing .elements.bathroom::before {
+    background-position-x: -95px;
+}
+.bl-listing .bl-info-listing .elements.incense::before {
+    background-position-x: -65px;
+}
+.bl-listing .compare {
+    color: #fff;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: 3;
+    padding: 1px 7px 1px 3px;
+    background-color: rgba(0,0,0,.7);
+    border-radius: 5px;
+    display: none;
+    font-size: 14px;
+}
+.hidden {
+    display: none !important;
+}
