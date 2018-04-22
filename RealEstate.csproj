@@ -152,6 +152,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Resources\CSS\AHS\AHS_styles.css" />
     <Content Include="Resources\CSS\bootstrap-grid.css" />
     <Content Include="Resources\CSS\bootstrap-grid.min.css" />
     <Content Include="Resources\CSS\bootstrap-reboot.css" />
@@ -159,6 +160,7 @@
     <Content Include="Resources\CSS\bootstrap.css" />
     <Content Include="Resources\CSS\bootstrap.min.css" />
     <Content Include="favicon.ico" />
+    <Content Include="Resources\CSS\Detail_Slider\Detail_Slider_Style.css" />
     <Content Include="Resources\CSS\Home\Banner.css" />
     <Content Include="Resources\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -231,7 +233,30 @@
     <Content Include="Resources\Icons\webfonts\fa-brands-400.svg" />
     <Content Include="Resources\Icons\webfonts\fa-regular-400.svg" />
     <Content Include="Resources\Icons\webfonts\fa-solid-900.svg" />
+    <Content Include="Resources\Images\AHSD\district-1.png" />
+    <Content Include="Resources\Images\AHSD\district-2.png" />
+    <Content Include="Resources\Images\AHSD\district-3.png" />
+    <Content Include="Resources\Images\AHSD\district-4.png" />
+    <Content Include="Resources\Images\AHSD\district-5.png" />
+    <Content Include="Resources\Images\AHSD\district-binhthanh.png" />
+    <Content Include="Resources\Images\AHSD\district-govap.png" />
+    <Content Include="Resources\Images\AHSD\district-phunhuan.png" />
+    <Content Include="Resources\Images\AHSD\district-tanbinh.png" />
+    <Content Include="Resources\Images\district-1.png" />
+    <Content Include="Resources\Images\district-2.png" />
+    <Content Include="Resources\Images\district-3.png" />
+    <Content Include="Resources\Images\district-4.png" />
+    <Content Include="Resources\Images\district-5.png" />
+    <Content Include="Resources\Images\district-binhthanh.png" />
+    <Content Include="Resources\Images\district-govap.png" />
+    <Content Include="Resources\Images\district-phunhuan.png" />
+    <Content Include="Resources\Images\district-tanbinh.png" />
     <Content Include="Resources\Images\Icons\glyphicons-159-show-lines.png" />
+    <Content Include="Resources\Images\img-dathongbao.png" />
+    <Content Include="Resources\Images\img-web-laptop.png" />
+    <Content Include="Resources\Images\logo-vnexpress.png" />
+    <Content Include="Resources\Images\xkinhtesg-logo.png" />
+    <Content Include="Resources\Images\xtuoitre-logo.png" />
     <Content Include="Resources\Scripts\bootstrap.js" />
     <Content Include="Resources\Scripts\bootstrap.min.js" />
     <Content Include="Resources\Scripts\Home\Banner.js" />
