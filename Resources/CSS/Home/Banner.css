@@ -60,3 +60,18 @@ background-color:royalblue;
     border-top:solid;
     border-top-color:white;
 }
+
+.heart {
+    color: white;
+    padding-top:5px;
+}
+
+.heart:hover{
+    color: powderblue;
+    text-decoration:none;
+}
+
+.Right{
+    float:right;
+    display:inherit;
+}
