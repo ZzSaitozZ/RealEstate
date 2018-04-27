@@ -42,6 +42,10 @@
         </div>
     </nav>
     <div class="container body-content">
+    @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/bootstrap")
+        @Scripts.Render("~/bundles/select")
+        @RenderSection("scripts", required: false)
         @RenderBody()
     </div>
     @Html.Partial("Areas_Home_Sale")
@@ -123,8 +127,6 @@
         </footer>
     </div>
 
-    @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")
-    @RenderSection("scripts", required: false)
+  
 </body>
 </html>
