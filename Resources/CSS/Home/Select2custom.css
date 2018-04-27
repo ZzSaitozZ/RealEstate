@@ -1,0 +1,62 @@
+﻿input[name=radio1] {
+    display: none;
+}
+
+.labelButton {
+    background-color: #9E9E9E;
+    display: inline-block;
+    cursor: pointer;
+    padding: 4px;
+    opacity: 0.4;
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    min-width: 20%;
+    width: 45%;
+    text-align: center;
+    color: white;
+}
+
+    .labelButton:hover, .labelButton.active {
+        background-color: red;
+        opacity: 1;
+    }
+
+
+.arrow {
+    border-color: red transparent transparent transparent;
+    border-width: 6px 6px 0 6px;
+    border-style: dashed;
+    width: 0;
+    position: absolute;
+    bottom: -6px;
+    left: 50%;
+    margin-left: -6px;
+}
+
+.inside-carousel {
+    width: 60%;
+    position: absolute;
+    top: 80%;
+    left: 20%;
+    z-index: 5;
+}
+
+.label-container {
+    width: 100%;
+    position: absolute;
+    top: 65%;
+    z-index: 5;
+    padding: 0 40%;
+}
+
+#wordchange {
+    position: absolute;
+    top: 40%;
+    z-index: 5;
+    color: #fbf7f1d1;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
