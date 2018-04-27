@@ -1,17 +1,14 @@
-﻿body {
-}
-
-
+﻿
 .carousel {
     position: relative;     
 }
 
 
-.carousel-inner {
-    position: relative;
-    width:auto;
+.carousel-inner{
+    position: relative;    
     overflow: hidden;
-    margin: 0 15%;
+    margin:0;
+    width:100%;
 }
 
 .carousel-control-prev, .carousel-control-next {
@@ -29,4 +26,9 @@
     text-align: center;
     opacity: 0.5;
     background-color: black;
+}
+
+img.img-fluid{
+    height:400px;
+    width:100%;
 }
