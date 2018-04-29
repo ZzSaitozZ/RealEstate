@@ -75,3 +75,9 @@ background-color:royalblue;
     float:right;
     display:inherit;
 }
+
+.Body{
+    padding-top:56px;
+    padding-left:0px;
+    padding-right:0px;
+}

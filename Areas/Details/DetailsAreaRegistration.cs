@@ -17,7 +17,7 @@ namespace RealEstate.Areas.Details
             context.MapRoute(
                 "Details_default",
                 "Details/{controller}/{action}/{id}",
-                new { action = "Index", id = UrlParameter.Optional }
+                new { action = "Items", id = UrlParameter.Optional }
             );
         }
     }

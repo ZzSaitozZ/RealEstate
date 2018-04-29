@@ -144,6 +144,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Areas\Details\Controllers\DetailsController.cs" />
     <Compile Include="Areas\Details\DetailsAreaRegistration.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
@@ -163,6 +164,8 @@
     <Content Include="Resources\CSS\Detail_Slider\Detail_Slider_Style.css" />
     <Content Include="Resources\CSS\Home\Banner.css" />
     <Content Include="Resources\CSS\Home\Carousel.css" />
+    <Content Include="Resources\CSS\Home\select2.min.css" />
+    <Content Include="Resources\CSS\Home\Select2custom.css" />
     <Content Include="Resources\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Resources\CSS\Site.css" />
@@ -220,6 +223,10 @@
     <Content Include="Resources\Icons\webfonts\fa-solid-900.ttf" />
     <Content Include="Resources\Icons\webfonts\fa-solid-900.woff" />
     <Content Include="Resources\Icons\webfonts\fa-solid-900.woff2" />
+    <Content Include="Areas\Details\Views\Shared\Error.cshtml" />
+    <Content Include="Areas\Details\Views\Shared\_Layout.cshtml" />
+    <Content Include="Areas\Details\Views\Details\Items.cshtml" />
+    <Content Include="Areas\Details\Views\_ViewStart.cshtml" />
     <None Include="Resources\Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Resources\Icons\css\fa-brands.css" />
     <Content Include="Resources\Icons\css\fa-brands.min.css" />
@@ -259,6 +266,8 @@
     <Content Include="Resources\Images\DCarousel\8.jpg" />
     <Content Include="Resources\Images\DCarousel\9.jpg" />
     <Content Include="Resources\Images\Icons\glyphicons-159-show-lines.png" />
+    <Content Include="Resources\Images\Icons\location.png" />
+    <Content Include="Resources\Images\Icons\search.png" />
     <Content Include="Resources\Images\img-dathongbao.png" />
     <Content Include="Resources\Images\img-web-laptop.png" />
     <Content Include="Resources\Images\logo-vnexpress.png" />
@@ -277,6 +286,7 @@
     <Content Include="Resources\Scripts\modernizr-2.6.2.js" />
     <Content Include="Resources\Scripts\respond.js" />
     <Content Include="Resources\Scripts\respond.min.js" />
+    <Content Include="Resources\Scripts\select2.min.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -293,12 +303,11 @@
     <Content Include="Views\Home\Areas_Home_Sale.cshtml" />
     <Content Include="Views\Home\Detail_Carousel.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Details\Items.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Areas\Details\Controllers\" />
     <Folder Include="Areas\Details\Models\" />
-    <Folder Include="Areas\Details\Views\Shared\" />
     <Folder Include="Models\DAO\" />
     <Folder Include="Models\EF\" />
   </ItemGroup>
