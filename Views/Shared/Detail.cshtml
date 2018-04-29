@@ -21,7 +21,7 @@
 
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
-                <li class="navbar-brand"><a class="Menu ItemCenter" href="#">BUY</a></li>
+                <li class="navbar-brand"><a class="Menu ItemCenter" href="~/Detail/Items">BUY</a></li>
                 <li class="navbar-brand"><a class="Menu ItemCenter" href="#">SELL</a></li>
                 <li class="navbar-brand"><a class="Menu ItemCenter" href="#">RENT</a></li>
                 <li class="navbar-brand"><a class="Menu ItemCenter" href="#">NEWS</a></li>
@@ -45,12 +45,12 @@
             </a>
         </div>
     </nav>
-
-    <div class="container-fluid Body">
+    <div class="container-fluid Search">
+        
+    </div>
+    <div class="container-fluid">
         @RenderBody()
     </div>
-    @Html.Partial("Areas_Home_Sale")
-    @Html.Partial("Detail_Carousel")
     <div>
         <hr />
         <footer>

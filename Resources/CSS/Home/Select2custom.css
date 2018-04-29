@@ -19,13 +19,13 @@
 }
 
     .labelButton:hover, .labelButton.active {
-        background-color: red;
+        background-color: #0000009e;
         opacity: 1;
     }
 
 
 .arrow {
-    border-color: red transparent transparent transparent;
+    border-color: #0000009e transparent transparent transparent;
     border-width: 6px 6px 0 6px;
     border-style: dashed;
     width: 0;

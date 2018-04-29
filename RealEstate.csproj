@@ -144,8 +144,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Areas\Details\Controllers\DetailsController.cs" />
-    <Compile Include="Areas\Details\DetailsAreaRegistration.cs" />
+    <Compile Include="Controllers\DetailController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -178,7 +177,6 @@
     <Content Include="Resources\CSS\bootstrap-reboot.css.map" />
     <Content Include="Resources\CSS\bootstrap-grid.min.css.map" />
     <Content Include="Resources\CSS\bootstrap-grid.css.map" />
-    <Content Include="Areas\Details\Views\web.config" />
     <Content Include="Resources\Icons\less\fa-brands.less" />
     <Content Include="Resources\Icons\less\fa-regular.less" />
     <Content Include="Resources\Icons\less\fa-solid.less" />
@@ -223,10 +221,6 @@
     <Content Include="Resources\Icons\webfonts\fa-solid-900.ttf" />
     <Content Include="Resources\Icons\webfonts\fa-solid-900.woff" />
     <Content Include="Resources\Icons\webfonts\fa-solid-900.woff2" />
-    <Content Include="Areas\Details\Views\Shared\Error.cshtml" />
-    <Content Include="Areas\Details\Views\Shared\_Layout.cshtml" />
-    <Content Include="Areas\Details\Views\Details\Items.cshtml" />
-    <Content Include="Areas\Details\Views\_ViewStart.cshtml" />
     <None Include="Resources\Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Resources\Icons\css\fa-brands.css" />
     <Content Include="Resources\Icons\css\fa-brands.min.css" />
@@ -297,17 +291,17 @@
     <Content Include="Views\Web.config" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
-    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Shared\Home.cshtml" />
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Areas_Home_Sale.cshtml" />
     <Content Include="Views\Home\Detail_Carousel.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Details\Items.cshtml" />
+    <Content Include="Views\Detail\Items.cshtml" />
+    <Content Include="Views\Shared\Detail.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Areas\Details\Models\" />
     <Folder Include="Models\DAO\" />
     <Folder Include="Models\EF\" />
   </ItemGroup>

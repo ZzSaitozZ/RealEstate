@@ -25,7 +25,7 @@
         $('.select2-selection__rendered')[0].style.display = "inline-block";
         $('.select2-container .select2-selection--single')[0].style.height = "auto";
         $('.select2-container').append(img1);
-        
+        $('input[name=radio1][value=1]').attr("checked", "checked").trigger('change');
     });
 </script>
 
@@ -42,7 +42,7 @@
     @* Thuê-Mua LabelButton ----------------------------------*@
     <div class="label-container">
         <label class="labelButton" name="label1">
-            <input type="radio" name="radio1" value="1"checked="checked" />
+            <input type="radio" name="radio1" value="1"/>
             Mua
             <span class="arrow" name="arrow1"></span>
         </label>
@@ -151,9 +151,7 @@
     })
 </script>
 
-<script>
-    $('input[name=radio1]').change();
-</script>
+
 
 
 
