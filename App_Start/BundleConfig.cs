@@ -33,7 +33,7 @@ namespace RealEstate
             bundles.Add(new StyleBundle("~/Content/Icon").Include(
                       "~/Resources/Icons/css/fontawesome-all.css"));
             bundles.Add(new ScriptBundle("~/bundles/select").Include(
-                        "~/Resources/Scripts/select2.min.js"));
+                        "~/Resources/Scripts/Select2/select2.min.js"));
         }
     }
 }

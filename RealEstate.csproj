@@ -163,6 +163,7 @@
     <Content Include="Resources\CSS\Detail_Slider\Detail_Slider_Style.css" />
     <Content Include="Resources\CSS\Home\Banner.css" />
     <Content Include="Resources\CSS\Home\Carousel.css" />
+    <Content Include="Resources\CSS\Home\select2.css" />
     <Content Include="Resources\CSS\Home\select2.min.css" />
     <Content Include="Resources\CSS\Home\Select2custom.css" />
     <Content Include="Resources\fonts\glyphicons-halflings-regular.svg" />
@@ -281,6 +282,10 @@
     <Content Include="Resources\Scripts\respond.js" />
     <Content Include="Resources\Scripts\respond.min.js" />
     <Content Include="Resources\Scripts\select2.min.js" />
+    <Content Include="Resources\Scripts\Select2\select2.full.js" />
+    <Content Include="Resources\Scripts\Select2\select2.full.min.js" />
+    <Content Include="Resources\Scripts\Select2\select2.js" />
+    <Content Include="Resources\Scripts\Select2\select2.min.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -297,8 +302,9 @@
     <Content Include="Views\Home\Areas_Home_Sale.cshtml" />
     <Content Include="Views\Home\Detail_Carousel.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Detail\Items.cshtml" />
+    <Content Include="Views\Detail\ItemsFilter.cshtml" />
     <Content Include="Views\Shared\Detail.cshtml" />
+    <Content Include="Views\Detail\ItemsList.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

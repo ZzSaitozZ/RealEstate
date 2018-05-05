@@ -9,7 +9,7 @@ namespace RealEstate.Controllers
     public class DetailController : Controller
     {
         // GET: Detail
-        public ActionResult Items()
+        public ActionResult ItemsFilter()
         {
             return View();
         }
